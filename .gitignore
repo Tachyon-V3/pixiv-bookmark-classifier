@@ -1,0 +1,10 @@
+node_modules/
+upload/
+local-data/
+validation/
+pixiv-classification-project*.json
+pixiv-classification-plan*.json
+pixiv-bookmark-records*.json
+parameters*.txt
+*.log
+.DS_Store

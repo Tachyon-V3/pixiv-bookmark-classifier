@@ -1,0 +1,12 @@
+{
+  "name": "pixiv-bookmark-classifier",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Plan category coverage across your Pixiv bookmarks, inspect gaps, verify tag capacity and keep updating saved classifications",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node tests/run.cjs",
+    "check": "node --check pixiv-bookmark-analyzer-prototype.user.js",
+    "package": "python3 scripts/package.py"
+  }
+}
